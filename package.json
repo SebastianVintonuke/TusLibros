@@ -1,0 +1,25 @@
+{
+  "name": "tuslibros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx ts-node main.ts",
+    "test": "npx ts-node ./testing/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/uuid": "^10.0.0",
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "ts-node": "^10.9.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
